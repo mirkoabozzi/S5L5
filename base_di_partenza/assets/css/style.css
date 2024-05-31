@@ -6,9 +6,10 @@
 }
 body {
   font-family: "Roboto", "sans-serif";
+  max-width: 1400px;
 }
 h1 {
-  font-size: 50px;
+  font-size: 70px;
 }
 h2 {
   font-size: 20px;
@@ -29,6 +30,7 @@ main {
   justify-content: center; */
 }
 nav {
+  max-width: 1400px;
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -178,3 +180,27 @@ h4 {
 .articleContainer2 h2 {
   margin-block: 0.5rem;
 }
+.discover {
+  width: 100%;
+  margin-inline: 3rem;
+  border-bottom: 1px solid black;
+}
+aside {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+}
+.asideContainer button {
+  background-color: transparent;
+  padding: 0.5rem;
+  margin-block: 0.5rem;
+}
+/* .asideContainer {
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+aside {
+  width: 30%;
+} */
