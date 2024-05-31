@@ -12,6 +12,7 @@ h1 {
 }
 h2 {
   font-size: 20px;
+  margin-block: 0.5rem;
 }
 /* article span {
   font-size: 30px;
@@ -27,7 +28,11 @@ main {
   display: flex;
   justify-content: center; */
 }
-
+nav {
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
 .navContainer {
   margin-inline: auto;
   display: flex;
@@ -70,9 +75,11 @@ button {
 .svgContainer {
   width: 30rem;
   height: 20rem;
-  background-color: aqua;
+  background-color: #ffc017;
 }
 .heroContainer {
+  padding-top: 64px;
+
   display: flex;
   justify-content: space-between;
 }
@@ -91,7 +98,7 @@ button {
 }
 
 .mediumContainer {
-  width: 85%;
+  width: 87%;
   margin-bottom: 4rem;
 }
 article {
@@ -102,7 +109,7 @@ h4 img {
   border-radius: 50%;
 }
 h4 {
-  font-size: 13px;
+  font-size: 15px;
 }
 .hero h1 {
   font-family: "spectral", "Serif";
@@ -122,7 +129,7 @@ h4 {
 #secondSection {
   width: 90%;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
 }
 .aticleSection2 {
   display: flex;
@@ -163,7 +170,8 @@ h4 {
   display: flex;
   align-items: center;
 }
-.author h3 {
+.author h3,
+h4 {
   margin-left: 1rem;
 }
 
