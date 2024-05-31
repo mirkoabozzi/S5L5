@@ -46,7 +46,7 @@ nav {
 }
 .btnContainer button {
   border: none;
-  background-color: #ffc017;
+  background-color: transparent;
 }
 
 .hero {
