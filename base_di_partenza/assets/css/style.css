@@ -74,7 +74,12 @@ button {
   border-radius: 20px;
   padding-inline: 1.5rem;
   padding-block: 0.5rem;
+  transition: background-color 500ms;
 }
+#getNav {
+  transition: background-color 500ms;
+}
+
 .svgContainer {
   width: 30rem;
   height: 20rem;
